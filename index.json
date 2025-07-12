@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "index",
+    "title": "LentoBot",
+    "formattedTitle": "<span class='text-red-400'>/</span>LentoBot",
+    "tags": [
+      "welcome",
+      "beginner",
+      "quick",
+      "setup"
+    ],
+    "excerpt": "# Quick Setup Guide\n\nHello World!\n\n## Installation\n\nHello Lento!\n"
+  }
+]
