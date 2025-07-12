@@ -1,0 +1,23 @@
+{
+  "name": "karte",
+  "description": "Zeigt Infos zu einer TCG-Karte.",
+  "input": [
+    {
+      "name": "name",
+      "description": "Kartenname",
+      "type": "string",
+      "autocomplete": true
+    }
+  ],
+  "api": "http://10.0.0.3/cards?name={name}",
+  "output": "embed",
+  "template": {
+    "title": "{data.0.name}",
+    "description": "{data.0.description}",
+    "image": "{data.0.image_url}",
+    "fields": [
+      { "name": "Seltenheit", "value": "{data.0.rarity}" },
+      { "name": "Typ", "value": "{data.0.type}" }
+    ]
+  }
+}
